@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://jackwang96.github.io/sitemap.xml
+Sitemap: https://jackywang96.github.io/JackWang96.github.io/sitemap.xml

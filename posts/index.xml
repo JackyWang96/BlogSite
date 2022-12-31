@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Jack Wang</title>
-    <link>http://jackwang96.github.io/posts/</link>
+    <link>https://jackywang96.github.io/JackWang96.github.io/posts/</link>
     <description>Recent content in Posts on Jack Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2022 23:06:51 +1100</lastBuildDate><atom:link href="http://jackwang96.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2022 23:06:51 +1100</lastBuildDate><atom:link href="https://jackywang96.github.io/JackWang96.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://jackwang96.github.io/posts/my-first-post/</link>
+      <link>https://jackywang96.github.io/JackWang96.github.io/posts/my-first-post/</link>
       <pubDate>Fri, 30 Dec 2022 23:06:51 +1100</pubDate>
       
-      <guid>http://jackwang96.github.io/posts/my-first-post/</guid>
+      <guid>https://jackywang96.github.io/JackWang96.github.io/posts/my-first-post/</guid>
       <description>Hi, I&amp;rsquo;m Jack 👋 This is my first post. Welcome to my Blog</description>
     </item>
     
