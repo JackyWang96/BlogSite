@@ -2,22 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jackywang96.github.io/JackWang96.github.io/</loc>
-    <lastmod>2022-12-30T23:06:51+11:00</lastmod>
-  </url><url>
-    <loc>https://jackywang96.github.io/JackWang96.github.io/posts/my-first-post/</loc>
-    <lastmod>2022-12-30T23:06:51+11:00</lastmod>
-  </url><url>
-    <loc>https://jackywang96.github.io/JackWang96.github.io/posts/</loc>
-    <lastmod>2022-12-30T23:06:51+11:00</lastmod>
-  </url><url>
-    <loc>https://jackywang96.github.io/JackWang96.github.io/about/</loc>
+    <loc>https://jackywang96.github.io/BlogSite/about/</loc>
     <lastmod>2022-12-18T21:48:35+08:00</lastmod>
   </url><url>
-    <loc>https://jackywang96.github.io/JackWang96.github.io/categories/</loc>
+    <loc>https://jackywang96.github.io/BlogSite/categories/</loc>
   </url><url>
-    <loc>https://jackywang96.github.io/JackWang96.github.io/archives/</loc>
+    <loc>https://jackywang96.github.io/BlogSite/</loc>
   </url><url>
-    <loc>https://jackywang96.github.io/JackWang96.github.io/tags/</loc>
+    <loc>https://jackywang96.github.io/BlogSite/archives/</loc>
+  </url><url>
+    <loc>https://jackywang96.github.io/BlogSite/tags/</loc>
   </url>
 </urlset>
