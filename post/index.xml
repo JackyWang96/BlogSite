@@ -13,7 +13,9 @@
       <pubDate>Tue, 10 Jan 2023 01:51:14 +1100</pubDate>
       
       <guid>https://jackywang96.github.io/BlogSite/post/sql/</guid>
-      <description>SQL Has left join, right join and inner join</description>
+      <description>SQL experience
+When combining tables, the efficiency of simply using the where statement is lower than join, which is equivalent to full join left join (left join): Returns all records including all records in the left table and records with equal join fields in the right table.
+right join (right join): Returns all records including all records in the right table and records with equal join fields in the left table.</description>
     </item>
     
     <item>
