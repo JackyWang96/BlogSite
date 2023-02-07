@@ -6,7 +6,17 @@
     <description>Recent content on Jack Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jan 2023 18:15:48 +1100</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 23:34:06 +1100</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fast,Slow pointer--Floyd circle method</title>
+      <link>https://jackywang96.github.io/BlogSite/post/fast-slow-pointer-floyd-circle-method/fast-slow-pointer/</link>
+      <pubDate>Mon, 30 Jan 2023 23:34:06 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/fast-slow-pointer-floyd-circle-method/fast-slow-pointer/</guid>
+      <description>Introduction This article is about how to use double pointers to solve problems such as merge array
+Problem details Leetcode 88. Merge Sorted Array Analysis and thought Because it is a sorted array, add pointers at the end of nums1 and nums2 respectively. The values at the positions of the two pointers are compared each time. Copy the larger number to the last bit of nums1. After that, move the pointer.</description>
+    </item>
+    
     <item>
       <title>Merge Sorted Array</title>
       <link>https://jackywang96.github.io/BlogSite/post/merge-sorted-array/</link>
