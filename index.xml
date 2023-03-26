@@ -6,7 +6,18 @@
     <description>Recent content on Jack Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Feb 2023 00:55:45 +1100</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 02:52:22 +1100</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Big Data Learning Day-1</title>
+      <link>https://jackywang96.github.io/BlogSite/post/big-data/spark-learning-1/</link>
+      <pubDate>Mon, 27 Mar 2023 02:52:22 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/big-data/spark-learning-1/</guid>
+      <description>Introduction After this article, I will record some experience of learning big data.
+Content 1. Data processing tool Spark and Handoop Apache Spark: Apache Spark is an open-source, distributed computing system designed for big data processing and analytics. It offers support for various data processing tasks, including SQL queries, machine learning, and graph processing, through built-in libraries like Spark SQL, MLlib, and GraphX.
+Apache Hadoop: Apache Hadoop is an open-source, distributed computing framework for processing and storing large amounts of data on clusters of commodity hardware.</description>
+    </item>
+    
     <item>
       <title>TailwindCSS</title>
       <link>https://jackywang96.github.io/BlogSite/post/tailwindcss/</link>
