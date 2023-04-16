@@ -6,7 +6,22 @@
     <description>Recent content in Posts on Jack Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Apr 2023 01:03:20 +1100</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Apr 2023 22:54:19 +1000</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Lesson4 Note</title>
+      <link>https://jackywang96.github.io/BlogSite/post/java/javal-lesson4/</link>
+      <pubDate>Sat, 15 Apr 2023 22:54:19 +1000</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/java/javal-lesson4/</guid>
+      <description>Introduction Today will introduce Java&amp;rsquo;s arrays and their applied algorithms
+今天将介绍Java的数组及其应用的算法
+Content 4. 4 方法的重载 重载的概念 在同一个类中，允许存在一个以上的同名方法，只要它们的参数个数或者参数 类型不同即可。
+重载的特点： 与返回值类型无关，只看参数列表，且参数列表必须不同。 参数个数或参数类型 。调用时， 根据方法参数列表的不同来区别。
+说明
+1.声明格式： 方法名 参数的类型名 参数名 2.可变 参数：方法参数部分指定类型的参数个数是可变 多 个： 0 个， 1 个或多个 3.可变 个数形参的方法与同名的方法之间，彼此构成重载 4.可变 参数方法的使用与方法参数部分使用数组是一致的 5.方法 的参数部分有可变形参，需要放在形参声明 的 最后 6.在 一个方法的形参位置，最多只能声明一个可变个数形参
+题目 定义 一个 int 型的数组： int[] arr = new int[]{12,3,3,34,56,77,432}; 让数组的每个位置上的值去除以首位置的元素，得到的结果，作为该位置上的 新值。遍历新的数组。 答案 // 错误写法 for(int i= 0 i &amp;lt; arr.length;i++){ arr[i] = arr[i] / arr[0]; }</description>
+    </item>
+    
     <item>
       <title>Java Lesson3 Note</title>
       <link>https://jackywang96.github.io/BlogSite/post/java/java-lesson3/</link>
