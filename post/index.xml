@@ -1,12 +1,119 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jack Wang</title>
     <link>https://jackywang96.github.io/BlogSite/post/</link>
     <description>Recent content in Posts on Jack Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jan 2023 18:15:48 +1100</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 22:05:21 +1000</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation Test Note1</title>
+      <link>https://jackywang96.github.io/BlogSite/post/automation-test/automation-test/</link>
+      <pubDate>Tue, 16 May 2023 22:05:21 +1000</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/automation-test/automation-test/</guid>
+      <description>Introduction Starting today, I will begin my study of software testing. I will be documenting my notes after each learning session and sharing them as blog posts. 今天开始我将开始Java基础课程的教授。我会记录我每次备课的note并作为帖子发送至我的blog。
+Content 1. What is Cookie and Session? What&amp;rsquo;s the different between Cookie, Session, Cache 在许多 web 应用中，session 信息会被储存在服务器端，而 cookie 中则储存一个 session ID，服务器通过这个 session ID 来识别特定用户
+Session need to reply on cookie,cookie can live independently
+- 1.Cookie: 1.1 Cookie，有时也用其复数形式Cookies。类型为“小型文本文件”，是某些网站为了辨别用户身份，进行Session跟踪而储存在用户本地终端上的数据
+1.2 Reason: web程序是使用HTTP协议传输的，而HTTP协议是无状态的协议，对于事务处理没有记忆能力。 缺少状态意味着如果后续处理需要前面的信息，则它必须重传，这样可能导致每次连接传送的数据量增大。 另一方面，在服务器不需要先前信息时它的应答就较快。</description>
+    </item>
+    
+    <item>
+      <title>Java Lesson3 Note</title>
+      <link>https://jackywang96.github.io/BlogSite/post/java/java-lesson3/</link>
+      <pubDate>Sat, 01 Apr 2023 01:03:20 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/java/java-lesson3/</guid>
+      <description>Introduction Today will introduce Java&amp;rsquo;s OOP, inclue class, attribute, construtor, method
+今天将介绍Java的面向对象学习的三条主线
+Content 4. 面向对象 Java 类及类的成员： 属性，方法，构造器，代码块，内部类。 面向对象的三大特征： 封装性，继承性，多态性。 其他关键字：this、super、static、final、 abstract、interface、package、import 等。 4.1 面向过程(POP) 与面向对象(OOP) 面向过程： Procedure Oriented Programming 强调的是功能行为，以函数为最小单位，考虑怎么做。
+面向对象： Object Oriented Programming 强调具备了功能的对象，以类/ 对象为最小单位，考虑谁来做。
+4.2 类和对象 类：对一类事物的描述，是抽象的，概念上的定义。 对象：是实际存在的该类事物的每个个体， 因而也称为实例（instance）。
+面向对象程序设计的重点是类的设计。
+设计类，就是设计类的成员。 属性 == 成员变量 == field == 域、字段 方法 == 成员方法 == 函数 == method 创建类的对象 == 类的实例化 == 实例化类 4.2.1 类的成员之一：属性 成员变量 VS 局部变量 相同点 ① 定义变量的格式：数据类型 变量名 = 变量值；</description>
+    </item>
+    
+    <item>
+      <title>Java Lesson2 Note</title>
+      <link>https://jackywang96.github.io/BlogSite/post/java/java-lesson2/</link>
+      <pubDate>Fri, 31 Mar 2023 02:27:00 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/java/java-lesson2/</guid>
+      <description>Introduction Today will introduce Java&amp;rsquo;s arrays and their applied algorithms
+今天将介绍Java的数组及其应用的算法
+Content 3. 数 组 数组(Array)，是多个相同类型数据按一定顺序排列的集合， 并使用一个名字命名，并通过编号的方式对这些数据进行统一管理。
+数组里的相关概念
+Array name Elements Index length 3.1 一维数组的使用 用以下的方式熟悉一维数组
+一维数组的声明和初始化 如何调用数组的指定位置的元素 如何获取数组的长度 如何遍历数组 数组元素的默认初始化值 3.2 多维数组的使用 对于二维数组的理解，我们可以看成是一维数组array1 又作为另一个一维数组array2 的元素而存在。 其实，从数组底层的运行机制来看，其实没有多维数组。
+public class ArrayTest2 { public static void main(String[] args) { //1. 二维数组的声明和初始化 int[] arr = new int[]{1,2,3}; // 静态初始化 int[][] arr1 = new int[][]{{1,2,3},{4,5,6},{7,8,9}}; // 动态初始化1 String[][] arr2 = new String[3][2]; // 动态初始化2 String[][] arr3 = new String[3][]; // 错误的情况 // String[][] arr4 = new String[][]; // String[][] arr5 = new String[][4]; // String[][] arr6 = new String[4][3]{{1,2,3},{4,5,6},{7,8,9}}; // 正确的情况： int arr4[][] = new int[][]{{1,2,3},{4,5,12,6},{7,8,9}}; int[] arr5[] = new int[][]{{1,2,3},{4,5,6},{7,8,9}}; int[][] arr6 = {{1,2,3},{4,5,6},{7,8,9}}; //2.</description>
+    </item>
+    
+    <item>
+      <title>Java Lesson1 Note</title>
+      <link>https://jackywang96.github.io/BlogSite/post/java/javal-lesson1/</link>
+      <pubDate>Thu, 30 Mar 2023 00:19:17 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/java/javal-lesson1/</guid>
+      <description>Introduction 今天开始我将开始Java基础课程的教授。我会记录我每次备课的note并作为帖子发送至我的blog。
+Content 1. Java是什么样的语言 简单而言，使用JDK 的开发工具完成的java 程序，交给JRE 去运行
+- 面向对象: OOD（Object Oriented Programming）POP（Prodedure Oriented Programming）
+面向对象好在哪：POP小公司人少，所有安排事情是-你去干啥，他去干啥
+OOD: 大公司人多，分成多个部门，按职能分派任务
+三大特性：封装、继承、多态: 封装 用一个method隐藏赋值的过程、把属性变为private。只有外界用method去调用 public, private, default
+继承 inheritance； Child and parent class
+多态 overload
+- 健壮性: 吸收了C/C++ 语言的优点，但去掉了其影响程序健壮性的部分（如指针、 内存的申请与释放等），提供了一个相对安全的内存管理和访问机制。
+- 跨平台性: 跨平台性：通过Java 语言编写的应用程序在不同的系统平台上都可以运行。“Write once , Run Anywhere” 原理：只要在需要运行java 应用程序的操作系统上，先安装一个Java 虚拟机 (JVM Java Virtual Machine) 即可。由JVM 来负责Java 程序在该系统中的运行。
+Java 两种核心机制-Java VirtalMachine，Garbage Collection
+2. 基本语法 2.1 Java 中的名称命名规范 Package name: ：多单词组成时所有字母都小写：xxxyyyzzz Class、interface：所有单词的首字母大写：XxxYyyZzz 变量名、方法名：多单词组成时，第一个单词首字母小写，第二个单词开始每个单词首字母大写：xxxYyyZzz 常量名：所有字母都大写。多单词时每个单词用下划线连接：XXX_YYY_ZZZ</description>
+    </item>
+    
+    <item>
+      <title>Big Data Learning Day-2</title>
+      <link>https://jackywang96.github.io/BlogSite/post/big-data/spark-learning-2/</link>
+      <pubDate>Tue, 28 Mar 2023 02:21:23 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/big-data/spark-learning-2/</guid>
+      <description>Introduction After this article, I will record some experience of learning big data.
+Content 1. Spark core module Spark Core: The most basic and core functions of Spark are provided in Spark Core
+Spark SQL: Spark SQL is the component that Spark uses to manipulate structured data. With Spark SQL, users can query data using SQL or the Apache Hive version of the SQL dialect (HQL).
+Spark Streaming: Spark Streaming is a component on the Spark platform that performs stream computing for real-time data, and provides a rich API for processing data streams.</description>
+    </item>
+    
+    <item>
+      <title>Big Data Learning Day-1</title>
+      <link>https://jackywang96.github.io/BlogSite/post/big-data/spark-learning-1/</link>
+      <pubDate>Mon, 27 Mar 2023 02:52:22 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/big-data/spark-learning-1/</guid>
+      <description>Introduction After this article, I will record some experience of learning big data.
+Content 1. Data processing tool Spark and Handoop Apache Spark: Apache Spark is an open-source, distributed computing system designed for big data processing and analytics. It offers support for various data processing tasks, including SQL queries, machine learning, and graph processing, through built-in libraries like Spark SQL, MLlib, and GraphX.
+Apache Hadoop: Apache Hadoop is an open-source, distributed computing framework for processing and storing large amounts of data on clusters of commodity hardware.</description>
+    </item>
+    
+    <item>
+      <title>TailwindCSS</title>
+      <link>https://jackywang96.github.io/BlogSite/post/tailwindcss/</link>
+      <pubDate>Tue, 14 Feb 2023 00:55:45 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/tailwindcss/</guid>
+      <description>Introduction Tailwind CSS is a CSS styling library that provides us with all the building blocks we need to build custom designs without using custom styles.
+Feature Tailwind will automatically delete all unused CSS when building production files, so its size in the actual production environment is very small, and it is considered to be the CSS style library with the most design sense.
+Installation //Install Tailwind CSS npm install -D tailwindcss npx tailwindcss init //Add the paths to all of your template files in your tailwind.</description>
+    </item>
+    
+    <item>
+      <title>Fast,Slow pointer--Floyd circle method</title>
+      <link>https://jackywang96.github.io/BlogSite/post/fast-slow-pointer-floyd-circle-method/fast-slow-pointer/</link>
+      <pubDate>Mon, 30 Jan 2023 23:34:06 +1100</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/fast-slow-pointer-floyd-circle-method/fast-slow-pointer/</guid>
+      <description>Introduction This article is about how to use double pointers to solve problems such as merge array
+Problem details Leetcode 88. Merge Sorted Array Analysis and thought Because it is a sorted array, add pointers at the end of nums1 and nums2 respectively. The values at the positions of the two pointers are compared each time. Copy the larger number to the last bit of nums1. After that, move the pointer.</description>
+    </item>
+    
     <item>
       <title>Merge Sorted Array</title>
       <link>https://jackywang96.github.io/BlogSite/post/merge-sorted-array/</link>
