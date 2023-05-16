@@ -6,6 +6,7 @@
     <description>Recent content on Jack Wang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate>Tue, 16 May 2023 22:05:21 +1000</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation Test Note1</title>
@@ -18,6 +19,22 @@ Content 1. What is Cookie and Session? What&amp;rsquo;s the different between Co
 Session need to reply on cookie,cookie can live independently
 - 1.Cookie: 1.1 Cookie，有时也用其复数形式Cookies。类型为“小型文本文件”，是某些网站为了辨别用户身份，进行Session跟踪而储存在用户本地终端上的数据
 1.2 Reason: web程序是使用HTTP协议传输的，而HTTP协议是无状态的协议，对于事务处理没有记忆能力。 缺少状态意味着如果后续处理需要前面的信息，则它必须重传，这样可能导致每次连接传送的数据量增大。 另一方面，在服务器不需要先前信息时它的应答就较快。</description>
+=======
+    <lastBuildDate>Sat, 15 Apr 2023 22:54:19 +1000</lastBuildDate><atom:link href="https://jackywang96.github.io/BlogSite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Lesson4 Note</title>
+      <link>https://jackywang96.github.io/BlogSite/post/java/javal-lesson4/</link>
+      <pubDate>Sat, 15 Apr 2023 22:54:19 +1000</pubDate>
+      
+      <guid>https://jackywang96.github.io/BlogSite/post/java/javal-lesson4/</guid>
+      <description>Introduction Today will introduce Java&amp;rsquo;s arrays and their applied algorithms
+今天将介绍Java的数组及其应用的算法
+Content 4. 4 方法的重载 重载的概念 在同一个类中，允许存在一个以上的同名方法，只要它们的参数个数或者参数 类型不同即可。
+重载的特点： 与返回值类型无关，只看参数列表，且参数列表必须不同。 参数个数或参数类型 。调用时， 根据方法参数列表的不同来区别。
+说明
+1.声明格式： 方法名 参数的类型名 参数名 2.可变 参数：方法参数部分指定类型的参数个数是可变 多 个： 0 个， 1 个或多个 3.可变 个数形参的方法与同名的方法之间，彼此构成重载 4.可变 参数方法的使用与方法参数部分使用数组是一致的 5.方法 的参数部分有可变形参，需要放在形参声明 的 最后 6.在 一个方法的形参位置，最多只能声明一个可变个数形参
+题目 定义 一个 int 型的数组： int[] arr = new int[]{12,3,3,34,56,77,432}; 让数组的每个位置上的值去除以首位置的元素，得到的结果，作为该位置上的 新值。遍历新的数组。 答案 // 错误写法 for(int i= 0 i &amp;lt; arr.length;i++){ arr[i] = arr[i] / arr[0]; }</description>
+>>>>>>> 3c407209cde0b172e47a968dd1c97f5025a447b2
     </item>
     
     <item>
@@ -94,6 +111,7 @@ Apache Hadoop: Apache Hadoop is an open-source, distributed computing framework 
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>React</title>
       <link>https://jackywang96.github.io/BlogSite/posts/react/</link>
       <pubDate>Wed, 15 Mar 2023 09:46:07 +1100</pubDate>
@@ -103,6 +121,8 @@ Apache Hadoop: Apache Hadoop is an open-source, distributed computing framework 
     </item>
     
     <item>
+=======
+>>>>>>> 3c407209cde0b172e47a968dd1c97f5025a447b2
       <title>TailwindCSS</title>
       <link>https://jackywang96.github.io/BlogSite/post/tailwindcss/</link>
       <pubDate>Tue, 14 Feb 2023 00:55:45 +1100</pubDate>
@@ -114,6 +134,7 @@ Installation //Install Tailwind CSS npm install -D tailwindcss npx tailwindcss i
     </item>
     
     <item>
+<<<<<<< HEAD
       <title>TailwinCSS</title>
       <link>https://jackywang96.github.io/BlogSite/posts/tailwincss/</link>
       <pubDate>Tue, 07 Feb 2023 17:07:05 +1100</pubDate>
@@ -123,6 +144,8 @@ Installation //Install Tailwind CSS npm install -D tailwindcss npx tailwindcss i
     </item>
     
     <item>
+=======
+>>>>>>> 3c407209cde0b172e47a968dd1c97f5025a447b2
       <title>Fast,Slow pointer--Floyd circle method</title>
       <link>https://jackywang96.github.io/BlogSite/post/fast-slow-pointer-floyd-circle-method/fast-slow-pointer/</link>
       <pubDate>Mon, 30 Jan 2023 23:34:06 +1100</pubDate>
